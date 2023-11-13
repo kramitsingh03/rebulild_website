@@ -1,0 +1,30 @@
+/* import poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+}
+
+/* root color */
+:root{
+    --primary-color:#000;
+    --secondary-color:#fff;
+
+}
+
+/* navbar.ejs css stylesheet start here */
+.navbar{
+    background-color: var(--primary-color);
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem;
+    color: var(--secondary-color);
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
